@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2020.css">
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<body>
+
+<!-- Content will go here -->
+<!-- Navigation -->
+<nav class="w3-bar w3-pink">
+  <a href="#home" class="w3-button w3-bar-item">Home</a>
+  <a href="#band" class="w3-button w3-bar-item">Songs</a>
+  <a href="#tour" class="w3-button w3-bar-item">Chat</a>
+  <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+</nav>
+
+
+<section class="w3-container w3-center" style="max-width:600px">
+  <h2 class="w3-wide">HER + SONG</h2>
+  <p class="w3-opacity"><i>“When words fail music speaks.”</i></p>
+</section>
+
+<section class="w3-container w3-content w3-center" style="max-width:600px">
+<p class="w3-justify">
+Choose a song that fits your mood. You'll be connected to chat with another anonymous girl.</p>
+</section>
+
+<section class="w3-center">
+<form action="/action_page.php">
+  <label for="cars">Choose a song:</label>
+  <select name="songs" id="songs">
+    <option value="mae">I'm Not Her - Clara Mae</option>
+    <option value="bts">ON - BTS</option>
+    <option value="gaga">Million Reasons - Lady Gaga</option>
+    <option value="clarkson">Darkside - Kelly Clarkson</option>
+    <option value="pentatonix">Hallelujah - Pentatonix</option>
+    <option value="khalid">Better - Khalid</option>
+    <option value="halsey">Without Me - Halsey</option>
+    <option value="audi">Shoutout to My Ex - Little Mix</option>
+    <option value="audi">Yesterday - Beatles</option>
+  </select>
+  <br><br>
+</form>
+<a href='file:///Users/preetinaidu/Desktop/SongChoice1Chat'><button>Submit</button></a>
+</section>
+
+
+<section class="w3-row-padding w3-center w3-2020-sunlight">
+  <article class="w3-third">
+    <p>Thank You Next-Ariana</p>
+    <img src="https://upload.wikimedia.org/wikipedia/en/b/b2/Ariana_Grande_Thank_U_Next.png" alt="ariana" style="width:100%">
+  </article>
+  <article class="w3-third">
+    <p>Skinny Love-Birdy</p>
+    <img src="https://images.genius.com/6d33231676683ef18a688e21b0d2c943.630x630x1.jpg" alt="birdy" style="width:100%">
+  </article>
+  <article class="w3-third">
+    <p>Ex-Factor-Lauren Hill</p>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/55/LaurynHillTheMiseducationofLaurynHillalbumcover.jpg/220px-LaurynHillTheMiseducationofLaurynHillalbumcover.jpg" alt="lauren" style="width:100%">
+  </article>
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-pink w3-xlarge">
+  <p class="w3-medium">
+    Powered by <a href="">Her + Song</a>
+  </p>
+</footer>
+
+
+</body>
+</html>

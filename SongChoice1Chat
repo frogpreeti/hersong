@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+</style>
+</head>
+<body>
+<nav class="w3-bar w3-pink">
+  <a href="file:///Users/preetinaidu/Desktop/PreetiWebsite#tour" class="w3-button w3-bar-item">Home</a>
+  <a href="#band" class="w3-button w3-bar-item">Songs</a>
+  <a href="#tour" class="w3-button w3-bar-item">Chat</a>
+  <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+</nav>
+
+<h2>Chat: I'm Not Her - Clara Mae</h2>
+
+<audio controls>
+  <source src="imnother.mp3" type="audio/mpeg">
+</audio>
+
+
+<div class="container">
+  <img src="https://cdn3.vectorstock.com/i/1000x1000/44/57/tropical-pink-flower-icon-cartoon-style-vector-26634457.jpg" alt="Avatar" style="width:100%;">
+  <p>Hello. What's your story?</p>
+  <span class="time-right">11:00</span>
+</div>
+
+<div class="container darker">
+  <img src="https://classroomclipart.com/images/gallery/Clipart/Animals/Horse_Clipart/TN_horse-clipart-617.jpg" alt="Avatar" class="right" style="width:100%;">
+  <p>Hey! So there's this guy who I've liked for the longest time, but he likes another girl. I know I have more important things to focus on, but I can't seem to give him up.</p>
+  <span class="time-left">11:01</span>
+</div>
+
+<div class="container">
+  <img src="https://cdn3.vectorstock.com/i/1000x1000/44/57/tropical-pink-flower-icon-cartoon-style-vector-26634457.jpg" alt="Avatar" style="width:100%;">
+  <p>Been there done that girl! Get busy with your friends, activities, hobbies and school so that your mind and days are full.</p>
+  <span class="time-right">11:02</span>
+</div>
+
+<div class="container darker">
+  <img src="https://classroomclipart.com/images/gallery/Clipart/Animals/Horse_Clipart/TN_horse-clipart-617.jpg" alt="Avatar" class="right" style="width:100%;">
+  <p>I guess you're right. Maybe I'll go horseback riding with my sister.. or learn more coding perhaps?</p>
+  <span class="time-left">11:05</span>
+</div>
+
+</body>
+</html>
+
